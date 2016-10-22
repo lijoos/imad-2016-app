@@ -15,10 +15,10 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/Article-one', function (req, res) {
   res.sendFile('article one requested');
 });
-app.get('/Article_two', function (req, res) {
+app.get('/Article-two', function (req, res) {
   res.sendFile('article 2 requested');
 });
-app.get('/Article_three', function (req, res) {
+app.get('/Article-three', function (req, res) {
  res.sendFile('article 3 requested');
 });
 app.get('/ui/madi.png', function (req, res) {
