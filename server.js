@@ -13,16 +13,16 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 app.get('/Article-one', function (req, res) {
-  res.sendFile('article one requested');
+  res.send('article one requested');
 });
 app.get('/Article-two', function (req, res) {
   res.sendFile('article 2 requested');
 });
 app.get('/Article-three', function (req, res) {
- res.sendFile('article 3 requested');
+ res.send('article 3 requested');
 });
 app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+  res.send(path.join(__dirname, 'ui', 'madi.png'));
 });
 
 
